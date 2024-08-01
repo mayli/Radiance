@@ -1,5 +1,6 @@
 #ifndef MISC_FUNCTIONS__H
 #define MISC_FUNCTIONS__H
+#include <cstdint>
 #include <string>
 #include <vector>
 

@@ -60,7 +60,7 @@ MYSQLPP_DEVEL
 PKG_CHECK_MODULES(
     [LIBCAP],
     [libcap],
-    [AC_CHECK_LIB([cap], [cap_get_proc, cap_set_proc],
+    [AC_CHECK_LIB([cap], [cap_get_bound],
         [AC_CHECK_HEADER(
             [sys/capability.h],
             [have_libcap=yes],
